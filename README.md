@@ -1,6 +1,6 @@
 This module adds many expensive Hypixel Skyblock runes that I can't afford, including:
 
-> Music Rune
+> Music Rune \n
 > Meow Music Rune
 > Grand Searing Rune
 > Grand Freezing Rune
