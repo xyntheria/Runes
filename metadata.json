@@ -1,0 +1,10 @@
+{
+    "name": "Runes",
+    "description": "literally runes",
+    "version": "1.1.0",
+    "author": "eclipseok / xynth",
+    "entry": "index.js",
+    "requires": [
+        "Amaterasu"
+    ]
+}
