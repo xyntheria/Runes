@@ -1,0 +1,77 @@
+[
+    {
+        "category": "General",
+        "settings": [
+            {
+                "type": 6,
+                "name": "music_rune",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "meow_music_rune",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "grand_searing_rune",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "grand_freezing_rune",
+                "value": true
+            },
+            {
+                "type": 6,
+                "name": "primal_fear_rune",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "enchant_rune",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "spellbound_rune",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "smitten_rune",
+                "value": true
+            },
+            {
+                "type": 6,
+                "name": "rainy_day_rune",
+                "value": false
+            }
+        ]
+    },
+    {
+        "category": "Settings",
+        "settings": [
+            {
+                "type": 1,
+                "name": "radius",
+                "value": 16
+            },
+            {
+                "type": 6,
+                "name": "smoke",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "disable_on_f5",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "error",
+                "value": true
+            }
+        ]
+    }
+]

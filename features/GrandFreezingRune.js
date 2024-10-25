@@ -40,8 +40,8 @@ register("step", () => {
         if (!moving) {
             spin(x, 0.65, z, 0.72, 0.036, 0, 45, 1.1, "FIREWORKS_SPARK", "Firework Particles")
             spin(-x, 0.65, -z, 0.72, 0.036, 0, 45, 1.1, "FIREWORKS_SPARK", "Firework Particles")
-            createIceParticle(rx, 0.65, rz, 0.7);
-            createIceParticle(-rx, 0.65, -rz, 0.7);
+            createIceParticle(rx * 0.75, 0.65, rz * 0.75, 0);
+            createIceParticle(-rx * 0.75, 0.65, -rz * 0.75, 0);
 
             try {
                 if (Math.random() <= 0.4) World.particle.spawnParticle("SNOWBALL", Player.getX(), Player.getY(), Player.getZ(), 0, 1, 0)
@@ -118,7 +118,7 @@ const createIceParticle = (x, y, z, speed) => {
             Player.getX() + x,
             Player.getY() + y,
             Player.getZ() + z,
-            0, -1, 0,
+            speed, -1, speed,
             net.minecraft.block.Block.func_149682_b(net.minecraft.init.Blocks.field_150432_aD)
         )
     }
